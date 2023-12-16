@@ -6,7 +6,7 @@ function AddServicePage() {
     <>
       <h1>Adicionar serviço</h1>
       <AddServiceForm />
-      <Link to="/services"><button>Cancelar</button></Link>
+      <Link to="/"><button>Cancelar</button></Link>
     </>
   );
 }
