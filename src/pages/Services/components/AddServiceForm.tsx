@@ -47,7 +47,7 @@ function AddServiceForm() {
         <input type="number" />
       </label>
 
-      <button>Cadastrar Serviço</button>
+      <button type="button">Cadastrar Serviço</button>
     </form>
   );
 }
