@@ -4,7 +4,7 @@ Tiva a idéia para a aplicação pois um amigo meu tem uma oficina de motos, e e
 
 Checklist dos passos que tenho que fazer
 
-- [ ] criar e instalar arquivos necessários
+- [x] criar e instalar arquivos necessários
 - [ ] estruturar as páginas da aplicação
 - [ ] configurar o redux corretamente
 - [ ] fazer o funcionamento de adicionar itens ao estoque
