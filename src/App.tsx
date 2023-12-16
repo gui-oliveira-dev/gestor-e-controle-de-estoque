@@ -18,7 +18,7 @@ function App() {
         <Route path="/storage/new-item" element={ <AddProductPage /> } />
         <Route path="/services/new-service" element={ <AddServicePage /> } />
       </Route>
-      <Route path="/*" element={ <NotFoundPage /> } />
+      <Route path="*" element={ <NotFoundPage /> } />
     </Routes>
   );
 }
