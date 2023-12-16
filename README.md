@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+Este é o Meu primeiro Projeto pessoal complexo, minha idéia inicial é criar uma aplicação para gerir e controlar estoque de produtos, tenho em mente também fazer um controle dinamico de estoque, pretendo também poder controlar gastos e gerir pedidos com essa aplicação
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tiva a idéia para a aplicação pois um amigo meu tem uma oficina de motos, e ele queria um sistema para controlar melhor o estoque dele, e nenhum dos que ele já testou funcionou de moto satisfatório enttão tive a ideia de criar um sistema para ele
 
-Currently, two official plugins are available:
+Checklist dos passos que tenho que fazer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [ ] criar e instalar arquivos necessários
+- [ ] estruturar as páginas da aplicação
+- [ ] configurar o redux corretamente
+- [ ] fazer o funcionamento de adicionar itens ao estoque
+- [ ] poder gerir quantidade no estoque
+- [ ] fazer com que todas informações sejam salvas no redux
+- [ ] fazer com que essas informações do redux sejam salvas no local storage
+- [ ] fazer o funcionamento da página de pedidos e serviços
+- [ ] fazer o funcionamento de gerir o estoque dinamicamente
+- [ ] Estilizar aplicação
