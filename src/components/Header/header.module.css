@@ -1,0 +1,51 @@
+:root {
+  /* Estilos globais */
+  --primary-blue: rgb(0, 195, 255);
+  --default-corners: 10px;
+  --default-margin: 5px;
+  --default-padding: 5px;
+  --default-font-family: Arial, Helvetica, sans-serif;
+  --default-font-color: rgb(37, 37, 37);
+  
+  /* estilo dos links */
+  --link-color: rgb(31, 31, 31);
+  --link-background: rgba(0, 0, 0, 0) ;
+  --link-background-hover: rgba(0, 0, 0, 0.151) ;
+  --link-paddin: 5px 10px;
+
+}
+
+.name {
+  margin: var(--default-margin);
+  padding: var(--default-padding);
+  font-family: var(--default-font-family);
+  color: var(--default-font-color);
+}
+
+.link{
+  text-decoration: none;
+  font-family: var(--default-font-family);
+  background-color: var(--link-background);
+  color: var(--link-color);
+  padding: var(--link-paddin);
+  margin: var(--default-margin);
+  border-top-right-radius: var(--default-corners);
+  border-top-left-radius: var(--default-corners);
+}
+
+.link:hover {
+  border-bottom: 2px solid white;
+}
+
+.header {
+  background-color: var(--primary-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.active {
+  border-bottom: 2px solid --default-font-color;
+}

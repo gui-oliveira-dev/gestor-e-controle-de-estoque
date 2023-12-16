@@ -1,8 +1,12 @@
 import NavBar from './NavBar';
+import styles from './header.module.css';
 
 function Header() {
   return (
-    <NavBar />
+    <header className={ styles.header }>
+      <h2 className={ styles.name }>Nome da empresa aqui</h2>
+      <NavBar />
+    </header>
   );
 }
 

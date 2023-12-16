@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom';
+import styles from '../header.module.css';
 
 function NavBar() {
   return (
-    <nav>
-      <NavLink to="/">Início</NavLink>
-      <NavLink to="/storage">Estoque</NavLink>
-      <NavLink to="/services">Serviços</NavLink>
+    <nav className={ styles.navbar }>
+      <NavLink className={ styles.link } to="/">Início</NavLink>
+      <NavLink className={ styles.link } to="/storage">Estoque</NavLink>
+      <NavLink className={ styles.link } to="/services">Serviços</NavLink>
     </nav>
   );
 }
